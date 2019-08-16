@@ -66,8 +66,8 @@
         border: solid 1px #000;
         .border-radius(5px);
         color: @wild-sand;
-        padding: 10px 20px;
-    
+        .padding (10px 20px);
+
         &:hover {
           background: @waterloo;
           color: black;
@@ -83,7 +83,67 @@
       img {
         width: 100%;
         height: auto;
-        .border-radius(10px)      }
+        .border-radius(10px);
+      }
     }
   }
+
+
 }// home
+
+  // @Phone
+
+@media (max-width: 500px) {
+
+  .home {
+    flex-direction: column;
+
+    .space-images {
+      width: 100%;
+
+      .launch{
+        display: none;
+      }
+
+      .sky{
+        display: none;
+      }
+  
+      img {
+        width: 97%;
+        margin: 20px 2.5%;
+        .border-radius(20px);      
+        height: 100%;
+  
+
+      }
+    }
+
+    .walk {
+      flex-direction: column-reverse;
+      .padding (20px 0px);
+
+      .walk-text {
+        width: 100%;
+        .padding (10px 0px);
+
+        .btn {
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+      }
+      
+      .walk-img {
+        width: 99%;
+        margin-left: 1%;
+  
+        img {
+          width: 100%;
+          height: auto;
+          .border-radius(10px);
+        }
+      }
+    }
+  }
+}

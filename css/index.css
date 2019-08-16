@@ -254,3 +254,45 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home {
+    flex-direction: column;
+  }
+  .home .space-images {
+    width: 100%;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images img {
+    width: 97%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+    padding: 20px 0px;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .home .walk .walk-text .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .home .walk .walk-img {
+    width: 99%;
+    margin-left: 1%;
+  }
+  .home .walk .walk-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
