@@ -273,12 +273,17 @@ footer {
     border-radius: 20px;
     height: 100%;
   }
+  .home .visit-planets {
+    width: 98%;
+    margin: 2%;
+  }
   .home .walk {
     flex-direction: column-reverse;
     padding: 20px 0px;
   }
   .home .walk .walk-text {
-    width: 100%;
+    width: 98%;
+    margin: 2%;
     padding: 10px 0px;
   }
   .home .walk .walk-text .btn {
@@ -287,8 +292,8 @@ footer {
     text-align: center;
   }
   .home .walk .walk-img {
-    width: 99%;
-    margin-left: 1%;
+    width: 98%;
+    margin: 2%;
   }
   .home .walk .walk-img img {
     width: 100%;
