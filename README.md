@@ -33,12 +33,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Ans: Adaptive websites adapt to the width of the browers at specific breakpoints thus only concerned about those points at which it adapts its layout, at point a little below or above that it could display horizontal scrow bars. 
+	While responsive website adjust to the width of the brower at any given point in a waythat is optimized to the screen resolution.
 
 2. Describe what it means to be mobile first vs desktop first.
+Ans: A destop first approach means designing for the highest specifications and then going down to smaller resolutions, prefered where both the number of visitors and the sales are higher on the desktop.
+	A Mobile first approach This is a very focused approach that begins with designing for the main function of the site, then aims for higher resolutions best used where target users and sales are higher on mobile devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
 4. How would you describe preprocessing to someone new to CSS?
+Ans: A CSS preprocessor is a program that allows one generate CSS from the its own unique syntax. most of which aloows us add some features that are not directly used in CSS, such as mixin, nesting selector, and so on. 
+	These features make the CSS structure more readable and easier to maintain, though it also requires a compiler to be installed,which compiles the written code back to a regular css for use.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
